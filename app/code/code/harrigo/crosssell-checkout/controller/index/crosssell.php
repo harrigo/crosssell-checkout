@@ -1,5 +1,5 @@
 <?php
-namespace Harrigo\CrosssellCheckout\Controller\Index;
+namespace Harrigo\Crosssell-checkout\Controller\Index;
 
 use Magento\Framework\Controller\ResultFactory;
 
