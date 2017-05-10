@@ -1,6 +1,6 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <script src="Harrigo_CrosssellCheckout::js/ajaxcrosssell.js"/>
+        <script src="Harrigo_Crosssell-checkout::js/ajax-crosssell.js"/>
     </head>
     <body>
         <referenceBlock name="checkout.root">
