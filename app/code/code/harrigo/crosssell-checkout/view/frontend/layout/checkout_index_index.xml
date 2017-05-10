@@ -10,7 +10,7 @@
                                         <item name="children" xsi:type="array">
                                             <!-- The new step you add -->
                                             <item name="crosssell_step" xsi:type="array">
-                                                <item name="component" xsi:type="string">Harrigo_Crosssell-checkout/js/view/Crosssell_step</item>
+                                                <item name="component" xsi:type="string">Harrigo_Crosssell-checkout/js/view/Crosssell-view</item>
                                                     <!--To display step content before shipping step "sortOrder" value should be < 1-->
                                                     <!--To display step content between shipping step and payment step  1 < "sortOrder" < 2 -->
                                                     <!--To display step content after payment step "sortOrder" > 2 -->
