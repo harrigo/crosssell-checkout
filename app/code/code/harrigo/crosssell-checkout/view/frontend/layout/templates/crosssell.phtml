@@ -1,0 +1,12 @@
+This is a temporary phtml file to call into my controller. Want to use the cross sell block with below code in xml for controller.
+                
+<block class="Magento\Checkout\Block\Cart\Crosssell" name="checkout.cart.crosssell" template="Magento_Catalog::product/list/items.phtml" after="-">
+    <arguments>
+        <argument name="type" xsi:type="string">crosssell</argument>
+    </arguments>
+    <block class="Magento\Catalog\Block\Product\ProductList\Item\Container" name="crosssell.product.addto" as="addto">
+        <block class="Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare"
+               name="crosssell.product.addto.compare" as="compare"
+               template="Magento_Catalog::product/list/addto/compare.phtml"/>
+    </block>
+</block>
