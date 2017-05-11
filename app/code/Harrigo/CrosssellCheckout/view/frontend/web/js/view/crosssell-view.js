@@ -20,7 +20,7 @@ define(
         */
         return Component.extend({
             defaults: {
-                template: 'Harrigo_crosssell-checkout/crosssellstep'
+                template: 'Harrigo_CrosssellCheckout/crosssellstep'
             },
  
             //add here your logic to display step,
